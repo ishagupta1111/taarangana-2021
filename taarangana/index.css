@@ -1,0 +1,149 @@
+.container1{
+  background-image: url(fest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+
+  padding:0 0 2rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.8rem;
+  font-weight: 400;
+  padding-left:1.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.5rem;
+  font-weight:400;
+}
+.media-wrapper{
+  text-align: center;
+}
+
+
+
+.container2{
+  position: relative;
+  padding-top: 1%;
+  text-align: center;
+
+}
+.container2 span{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-family: "Unkempt",cursive;
+  display: inline-block;
+  color: #FFC1FA;
+  opacity: 0;
+  transform: translate(-155px,0) scale(0.4);
+  animation: animate 0.5s forwards;
+  letter-spacing: 1rem;
+}
+
+.container2 span:nth-of-type(2){
+  animation-delay: 0.05s;
+}
+.container2 span:nth-of-type(3){
+  animation-delay: 0.1s;
+}
+.container2 span:nth-of-type(4){
+  animation-delay: 0.15s;
+}
+.container2 span:nth-of-type(5){
+  animation-delay: 0.2s;
+}
+.container2 span:nth-of-type(6){
+  animation-delay: 0.25s;
+}
+.container2 span:nth-of-type(7){
+  animation-delay: 0.3s;
+}
+.container2 span:nth-of-type(8){
+  animation-delay: 0.35s;
+}
+.container2 span:nth-of-type(9){
+  animation-delay: 0.4s;
+}
+.container2 span:nth-of-type(10){
+  animation-delay: 0.45s;
+}
+@keyframes animate {
+  40%{
+  transform:translate(3.12rem,0) scale(.7);
+  opacity:1;
+  color:#FFC1FA;
+  }
+
+  60%{
+    color: wheat;
+  }
+
+  80%{
+    transform: translate(0) scale(2);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translate(0) scale(1);
+    opacity: 1;
+  }
+}
+.container3{
+  text-align: center;
+}
+
+#title3{
+  padding: 5%;
+  text-align: center;
+}
+.heading{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Unkempt",cursive;
+  padding-bottom: 1rem;
+}
+.container3{
+  width: 21.875rem;
+  height: 26.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+ h2{
+  font-size: 5rem;
+  font-family: "Unkempt",cursive;
+}
+
+.sign-up{
+  text-align: center;
+  padding:10%;
+}
+.user{
+  margin-bottom: 5%;
+  width: 15rem;
+  border-radius: 5px;
+}
+::placeholder{
+  font-family:"Unkempt",cursive;
+  font-size: 1.5rem;
+}
